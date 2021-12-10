@@ -4,3 +4,10 @@ The user can also update the data of user by choosing the update option
 To find the average of student marks, user can choose average option
 
 Sample Screenshots of the application working are also present in the repository as 'untiled', 2, 3 , 4 and so on.
+
+
+PRATHAM KUMAR
+SECTION C
+201900361
+5th Semester CSE
+Advanced Web Technologies
