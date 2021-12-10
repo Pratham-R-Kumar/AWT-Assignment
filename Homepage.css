@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{ 
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container{
+    text-align: center;
+}
+
+button{
+    padding: 16px 32px;
+    margin:0 auto;
+    display: inline block;
+    margin-top: 60px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    width: 25%;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+#p1,#p2,#p3,#p4,#p5,#p6{
+    width: 200px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#p1:hover{
+    background-color: green;
+}
+
+#p2:hover{
+    background-color: lightskyblue;
+}
+
+#p3:hover{
+    background-color: gold;
+}
+
+#p4:hover{
+    background-color: yellow;
+}
+
+#p5:hover{
+    background-color: black;
+}
+
+#p6:hover{
+    background-color: rgb(70, 70, 248);
+}
+.header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.parent3{
+    border: 2px solid black;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.Player1, .Player2, .Player3, .Player4, .Player5, .Player6{
+    margin-top: 16px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.parentfooter{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.col1, .col2{
+    color: yellow;
+    width: 600px;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Name, .Reg_no, .mail{
+    color: white;
+    width: 600px;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+.FB, .Insta, .Twitter{
+
+    margin-top: 16px;
+}
+
+
+.C1{
+    float: left;
+}
+
+.C2{
+    float: right;
+}
+
+
+.icon1,.icon2,.icon3{
+    color: white;
+    font-size: 40px;
+    margin-left: 20;
+}

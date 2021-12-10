@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Data-Entry.css">
+        <script src="Data-Entry.js"></script>
+        <title>Data Entry</title>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <h2>WELCOME TO STUDENT INFORMATION SYSTEM</h2>
+            </div>
+        </div>
+
+        <div class="header">
+            <b>Enter Student Information </b>
+        </div>
+        <div class="f">
+            <form action="connect.php" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" name="FirstName" id="fname" placeholder="Enter First Name" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="LastName" id="lname" placeholder="Enter Last Name" required>
+
+                <label for="regno">Registration Number</label>
+                <input type="text" name="RegNo" id="regno" placeholder="Enter Registration Number" required>
+
+
+                <label for="marks1">Marks in Subject 1</label>
+                <input type="number" name="Marks1" id="marks1" required>
+
+                
+                <label for="marks2">Marks in Subject 1</label>
+                <input type="number" name="Marks2" id="marks2" required>
+
+                
+                <label for="marks3">Marks in Subject 1</label>
+                <input type="number" name="Marks3" id="marks3" required>
+
+                <input type="submit" class="btn">
+            </form>
+        </div>
+    </body>
+</html>

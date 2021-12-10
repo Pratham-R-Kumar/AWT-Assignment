@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Data-Get.css">
+        <title>Data Retrieval</title>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <h2>WELCOME TO STUDENT INFORMATION SYSTEM</h2>
+            </div>
+        </div>
+        <div>
+            <div class="header">
+                <b>Enter Student Registration for Details</b>
+            </div>
+            <form action="connect2.php" class="f" method="post">
+                <label for="regno">Registration Number</label>
+                <input type="text" name="RegNo" id="regno" required>
+                <input type="submit" class="btn">
+            </form>
+            <div class="header">
+                <b>Enter Student Registration for Updation</b>
+            </div>
+            <form action="connect3.php" class="f" method="post">
+                <label for="regno">Registration Number</label>
+                <input type="text" name="RegNo" id="regno" required>
+                <input type="submit" class="btn" value="Update">
+            </form>
+
+            <div class="header">
+                <b>Find Average</b>
+            </div>
+            <form action="connect4.php" class="f" method="post">
+                <label for="regno">Registration Number</label>
+                <input type="text" name="RegNo" id="regno" required>
+                <input type="submit" class="btn" value="Average">
+            </form>
+        </div>
+    </body>
+</html>
